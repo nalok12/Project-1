@@ -1,0 +1,142 @@
+body{
+    margin: 0px auto;
+    padding: 10px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    border: 2px solid black;
+    height: fit-content;
+    width: 750px;
+
+}
+.card{
+    min-height: fit-content;
+    width: 300px;
+    color: #fff;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    line-height: 24px;
+}
+.card_header{
+    height: 250px;
+    text-align: center;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+}
+.card_name{
+    font-size: 30px;
+    font-weight: bold;
+}
+.card_navigater a {
+    color: #fff;
+    opacity: 0.8;
+    text-decoration: none;
+    font-size: medium;
+}
+.card_navigater img{
+    max-height: 15px;
+    max-width: 15px;
+    margin: 0;
+    opacity: 0.9;
+}
+.card_main-header img{
+    height: 150px;
+    width: 150px;
+    margin-top: 10px;
+    padding: 0px;
+    border-radius: 100%;
+    text-align: center;
+}
+.card_main, section,footer {
+    padding: 15px 30px;
+}
+.card_main .div1{
+    font-size: 30px;
+    line-height: 0%;
+}
+.card_main input{
+    background-color: black;
+    border:none
+}
+.card_section .div2{
+    font-size: 30px;
+    line-height: 0%;
+}
+.card_footer img{
+    height: 15px;
+    width: 15px;
+}
+.card_footer .div3{
+    font-size: 30px;
+    line-height: 1px;
+}
+.container{
+    margin: 20px;
+    width: 500px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.container .object{
+    font-size: 20px;
+    font-weight: bolder;
+    color: blue;
+    line-height: 1px;
+}
+.container .object hr{
+    height: 2px;
+    border-width: 2px black;
+    background-color: black;
+}
+.container .education{
+    font-size: 20px;
+    font-weight: bolder;
+    color: blue;
+    line-height: 1px;
+}
+.container .education hr{
+    height: 2px;
+    border-width: 2px black;
+    background-color: black;
+}
+.container .experiance{
+    font-size: 20px;
+    font-weight: bolder;
+    color: blue;
+    line-height: 1px;
+}
+.container .experiance hr{
+    height: 2px;
+    border-width: 2px black;
+    background-color: black;
+}
+.container .language{
+    font-size: 20px;
+    font-weight: bolder;
+    color: blue;
+    line-height: 1px;
+}
+.container .language hr{
+    height: 2px;
+    border-width: 2px black;
+    background-color: black;
+}
+.container .project{
+    font-size: 20px;
+    font-weight: bolder;
+    color: blue;
+    line-height: 1px;
+}
+.container .project hr{
+    height: 2px;
+    border-width: 2px black;
+    background-color: black;
+}
+ .container .resume{
+    font-size: 20px;
+    font-weight: bold;
+}
